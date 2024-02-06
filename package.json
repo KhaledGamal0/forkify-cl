@@ -1,7 +1,7 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# forkify-cl\"",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
@@ -16,5 +16,7 @@
     "core-js": "^3.35.0",
     "fracty": "^1.0.9",
     "regenerator-runtime": "^0.14.1"
-  }
+  },
+  "main": "index.js",
+  "keywords": []
 }
