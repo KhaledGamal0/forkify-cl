@@ -17,9 +17,6 @@ $bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; // 500px
 
 * {
-  @media only screen and (max-width: $bp-medium) {
-   zoom: 0.2; // Adjust this value to make the content smaller
-  }
   margin: 0;
   padding: 0;
 }
@@ -34,9 +31,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 
-  /*  @media only screen and (max-width: $bp-medium) {
-    font-size: 40%;
-  } */
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 31%;
+  }
 }
 
 body {
