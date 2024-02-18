@@ -17,11 +17,15 @@ $bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; // 500px
 
 * {
+  @media only screen and (max-width: $bp-medium) {
+    zoom: 0.9; // Adjust this value to make the content smaller
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    zoom: 0.8; // Adjust this value to make the content even smaller
+  }
   margin: 0;
   padding: 0;
-  @media only screen and (max-width: $bp-medium) {
-    zoom: 0.5; // Adjust this value to make the content smaller
-  }
 }
 
 *,
@@ -34,9 +38,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 33%;
-  }
+  /*  @media only screen and (max-width: $bp-medium) {
+    font-size: 40%;
+  } */
 }
 
 body {
