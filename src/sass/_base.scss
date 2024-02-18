@@ -18,11 +18,7 @@ $bp-smallest: 31.25em; // 500px
 
 * {
   @media only screen and (max-width: $bp-medium) {
-    zoom: 0.9; // Adjust this value to make the content smaller
-  }
-
-  @media only screen and (max-width: $bp-small) {
-    zoom: 0.8; // Adjust this value to make the content even smaller
+    zoom: 50%; // Adjust this value to make the content smaller
   }
   margin: 0;
   padding: 0;
